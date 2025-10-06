@@ -1,3 +1,13 @@
+## 1.5.0
+- Andpad DEV: To support Android 16KB page size and Signature rendering
+- Follow comment:  https://github.com/endigo/flutter_pdfview/pull/321#issuecomment-3191570282
+- Commits: https://github.com/opsenes/flutter_pdfview/compare/endigo%3Aflutter_pdfview%3Amaster...master
+- Update Android PDF viewer library to `com.github.marain87:AndroidPdfViewer:3.2.7` which fixes pdf signature rendering and also supports Android 16KB page size
+- Breaking Change: Add jitpack maven repository to your `android/build.gradle` file:
+```
+maven { url 'https://jitpack.io' }
+```
+
 ## 1.4.3
 - Stable Android 16KB page size support
 - Fix iPad scroll direction crash issue [#325](https://github.com/endigo/flutter_pdfview/issues/325)
